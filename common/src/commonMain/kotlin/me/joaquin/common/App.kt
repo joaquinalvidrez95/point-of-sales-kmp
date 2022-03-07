@@ -1,5 +1,6 @@
 package me.joaquin.common
 
+import InventoryScreen
 import androidx.compose.material.Text
 import androidx.compose.material.Button
 import androidx.compose.runtime.Composable
@@ -12,9 +13,10 @@ import androidx.compose.runtime.setValue
 fun App() {
     var text by remember { mutableStateOf("Hello, World!") }
 
-    Button(onClick = {
-        text = "Hello, ${getPlatformName()}"
-    }) {
-        Text(text)
-    }
+    /* Button(onClick = {
+         text = "Hello, ${getPlatformName()}"
+     }) {
+         Text(text)
+     }*/
+    InventoryScreen()
 }

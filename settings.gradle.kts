@@ -14,4 +14,4 @@ rootProject.name = "point-of-sales-kmp"
 include(":android")
 include(":desktop")
 include(":common")
-
+include("inventory")
