@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     java
     kotlin("jvm")
-    id("org.jetbrains.compose") version "1.0.0"
+    id("org.jetbrains.compose") version Versions.compose
 }
 
 group = "com.joaquin"

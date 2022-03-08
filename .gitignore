@@ -4,6 +4,9 @@
 /common/build/classes/kotlin/desktop/main/
 /desktop/build/
 /inventory/build/
+/buildSrc/build/
+/buildSrc/.gradle/
+/android/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
